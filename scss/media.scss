@@ -1,0 +1,272 @@
+@media (max-width: 1368px) {
+
+    .our-shop,
+    .our-bar {
+        background-size: 730px 575px;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .our-shop,
+    .our-bar {
+        background-size: 675px 575px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .company-name {
+        &__info {
+            padding: 10px 95px;
+        }
+
+        &__inner {
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+    .our-shop {
+        &__inner {
+            margin-right: 0;
+        }
+    }
+
+    .our-bar {
+        &__inner {
+            margin: 160px 565px 95px 0;
+        }
+    }
+
+    .our-shop,
+    .our-bar {
+        background-size: 600px 575px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .our-shop,
+    .our-bar {
+        background-size: 565px 500px;
+    }
+
+    .our-shop {
+        margin-bottom: 0;
+
+        &__inner {
+            margin: 190px 0 0 0;
+        }
+    }
+
+    .our-bar {
+        margin-bottom: 0;
+
+        &__inner {
+            margin: 95px 565px 0 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header__inner {
+        margin-bottom: 50px;
+    }
+
+    .company-name {
+        &__info {
+            padding: 0 110px 20px 80px;
+        }
+
+        &__inner {
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .our-shop {
+        background-size: 850px 500px;
+        min-height: 1000px;
+        background-position-y: bottom;
+
+        &__inner {
+            margin-top: 40px;
+            justify-content: center;
+        }
+
+        &__info {
+            text-align: center;
+        }
+    }
+
+    .our-bar {
+        background-size: 850px 500px;
+        min-height: 1000px;
+        background-position-y: bottom;
+        margin-top: 60px;
+
+        &__inner {
+            margin: 0;
+            justify-content: center;
+        }
+
+        &__title {
+            margin-bottom: 40px;
+        }
+
+        &__info {
+            text-align: center;
+        }
+    }
+
+    .banner-bottom {
+        margin-top: 70px;
+
+        &__inner {
+            flex-wrap: wrap;
+        }
+
+        &__text {
+            margin: 100px 0;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .banner__text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .banner-bottom__inner {
+        margin: 0;
+    }
+
+    .footer {
+        .map-iframe {
+            height: 450px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .header img {
+        margin-right: 30px;
+    }
+
+    .our-shop {
+        min-height: 900px;
+
+        .our-shop__inner p {
+            margin-bottom: 55px;
+        }
+    }
+
+    .our-bar {
+        min-height: 1040px;
+
+        .our-shop__inner p {
+            margin-bottom: 55px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        &__inner {
+            margin-bottom: 20px;
+            justify-content: space-between;
+        }
+
+        .menu__list li+li {
+            margin-left: 20px;
+        }
+    }
+
+    .banner-bottom__text {
+        margin: 60px 0;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .company-name__info {
+        padding: 0 0 20px 0;
+    }
+
+    .header {
+        .menu__list li {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    .company-name {
+        h1 {
+            font-size: 170px;
+            line-height: 180px;
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .header {
+        .menu__list li {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .menu__list li+li {
+            margin-left: 10px;
+        }
+    }
+
+    .banner {
+        &__inner {
+            margin-bottom: 60px;
+        }
+
+        &__text {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .banner-bottom img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 340px) {
+    .header img {
+        margin-right: 15px;
+    }
+    .our-shop {
+        min-height: 850px;
+    }
+    .footer__social img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header .menu__list li + li {
+        margin-left: 5px;
+    }
+}

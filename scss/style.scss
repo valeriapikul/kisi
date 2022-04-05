@@ -1,0 +1,180 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+body {
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 300;
+    font-family: 'Mukta', sans-serif;
+}
+
+h1 {
+    font-size: 190px;
+    line-height: 200px;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.header {
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        margin-bottom: 95px;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+        margin-right: 120px;
+    }
+
+    .menu {
+        &__list {
+            li {
+                font-size: 24px;
+                line-height: 26px;
+                display: inline-block;
+            }
+
+            li+li {
+                margin-left: 35px;
+            }
+        }
+    }
+}
+
+.company-name {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 95px;
+
+        img {
+            width: 600px;
+            height: 425px;
+        }
+    }
+
+    &__info {
+        padding: 20px 110px;
+    }
+}
+
+.banner {
+    background-color: #165528;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 490px;
+        margin-bottom: 95px;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        max-width: 870px;
+    }
+}
+
+.our-shop {
+    background-repeat: no-repeat;
+    min-height: 750px;
+    background-position-x: left;
+    background-size: 935px 625px;
+    background-position-y: 140px;
+    margin-bottom: 95px;
+
+    &__inner {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 270px 140px 95px 0;
+
+        p {
+            margin-bottom: 85px;
+        }
+    }
+}
+
+.our-bar {
+    background-repeat: no-repeat;
+    min-height: 850px;
+    background-position-x: right;
+    background-size: 935px 700px;
+    background-position-y: 140px;
+    margin-bottom: 95px;
+
+    &__inner {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin: 230px 140px 95px 0;
+
+        p {
+            margin-bottom: 75px;
+            max-width: 555px;
+        }
+    }
+}
+
+.banner-bottom {
+    background-color: #101e2b;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        min-height: 530px;
+        margin-bottom: 95px;
+    }
+
+    &__text {
+        color: #fff;
+        max-width: 430px;
+    }
+
+    img {
+        width: 360px;
+        height: 530px;
+        margin-top: 30px;
+    }
+}
+
+.footer {
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 600px;
+        align-items: center;
+    }
+
+    &__social {
+        img {
+            width: 72px;
+            height: 72px;
+        }
+    }
+
+    &__text {
+        text-align: center;
+    }
+}
